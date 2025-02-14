@@ -89,7 +89,7 @@ class PhotoViewModel() :ViewModel(){
         }
         val mostViewPhotos = _mostViewPhotos.toList()
         _appState.update { it.copy(isLoading = false, mostViewedPhotos = mostViewPhotos) }
-        println("response $response")
+        println("response askdjasndj $response")
         println("mostViewPhotos ${appState.value.mostViewedPhotos}")
         println("appState $appState")
     }

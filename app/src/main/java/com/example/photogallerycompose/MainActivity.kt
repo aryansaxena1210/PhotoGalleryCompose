@@ -41,7 +41,6 @@ fun PhotoGalleryApp(context: MainActivity) {
     else{
         Navigation(state)
     }
-
     LaunchedEffect(Unit) {
         photoViewModel.fetchPhotos(context)
     }
